@@ -74,168 +74,168 @@ INSERT INTO `empleados` VALUES (898,'Iván Duarte','M','1955-08-12','1998-05-16'
 
 -- 1. Obtener los datos completos de los empleados.
 
-	SELECT * FROM empleados;
+SELECT * FROM empleados;
     
 -- 2. Obtener los datos completos de los departamentos.
 
-	SELECT * FROM departamentos;
+SELECT * FROM departamentos;
     
 -- 3. Listar el nombre de los departamentos.
 
-	SELECT nombre_depto FROM departamentos;
+SELECT nombre_depto FROM departamentos;
     
 -- 4. Obtener el nombre y salario de todos los empleados.
 
-	SELECT nombre , sal_emp FROM empleados;
+SELECT nombre , sal_emp FROM empleados;
     
 -- 5. Listar todas las comisiones.
 
-	SELECT nombre , comision_emp FROM empleados;
+SELECT nombre , comision_emp FROM empleados;
 
 -- 6. Obtener los datos de los empleados cuyo cargo sea ‘Secretaria’.
 
-	SELECT nombre , cargo_emp FROM empleados
-    WHERE cargo_emp = "secretaria";
+SELECT nombre , cargo_emp FROM empleados
+WHERE cargo_emp = "secretaria";
     
 -- 7. Obtener los datos de los empleados vendedores, ordenados por nombre
 -- alfabéticamente.
 
-	SELECT nombre , cargo_emp FROM empleados
-    WHERE cargo_emp = "vendedor"
-    ORDER BY nombre ASC;
+SELECT nombre , cargo_emp FROM empleados
+WHERE cargo_emp = "vendedor"
+ORDER BY nombre ASC;
     
 -- 8. Obtener el nombre y cargo de todos los empleados, ordenados por salario de menor a
 -- mayor.
 
-	SELECT nombre , cargo_emp , sal_emp FROM empleados
-    ORDER BY sal_emp ASC;
+SELECT nombre , cargo_emp , sal_emp FROM empleados
+ORDER BY sal_emp ASC;
     
 -- 9. Obtener el nombre de o de los jefes que tengan su departamento situado en la ciudad
 -- de “Ciudad Real”.
 
-	SELECT nombre_jefe_depto , ciudad FROM departamentos
-    WHERE ciudad = "Ciudad Real";
+SELECT nombre_jefe_depto , ciudad FROM departamentos
+WHERE ciudad = "Ciudad Real";
     
 -- 10. Elabore un listado donde para cada fila, figure el alias ‘Nombre’ y ‘Cargo’ para las
 -- respectivas tablas de empleados.
 
-	SELECT nombre AS NOMBRE , cargo_emp AS CARGO
-    FROM empleados;
+SELECT nombre AS NOMBRE , cargo_emp AS CARGO
+FROM empleados;
 
 -- 11. Listar los salarios y comisiones de los empleados del departamento 2000, ordenado
 -- por comisión de menor a mayor.
 
-	SELECT nombre AS NOMBRE , sal_emp AS SALARIO , comision_emp AS COMISION
-    FROM empleados
-    WHERE id_depto = 2000
-    ORDER BY COMISION ASC;
+SELECT nombre AS NOMBRE , sal_emp AS SALARIO , comision_emp AS COMISION
+FROM empleados
+WHERE id_depto = 2000
+ORDER BY COMISION ASC;
 	
 -- 12. Obtener el valor total a pagar a cada empleado del departamento 3000, que resulta
 -- de: sumar el salario y la comisión, más una bonificación de 500. Mostrar el nombre del
 -- empleado y el total a pagar, en orden alfabético.
 
-	SELECT nombre , SUM(sal_emp + comision_emp + 500 ) AS MONTO_A_PAGAR FROM empleados
-    WHERE id_depto = 3000
-    GROUP BY nombre
-    ORDER BY nombre ASC;
+SELECT nombre , SUM(sal_emp + comision_emp + 500 ) AS MONTO_A_PAGAR FROM empleados
+WHERE id_depto = 3000
+GROUP BY nombre
+ORDER BY nombre ASC;
 
 -- 13. Muestra los empleados cuyo nombre empiece con la letra J.
 
-	SELECT nombre From empleados
-    WHERE nombre LIKE "j%";
+SELECT nombre From empleados
+WHERE nombre LIKE "j%";
     
 -- 14. Listar el salario, la comisión, el salario total (salario + comisión) y nombre, de aquellos
 -- empleados que tienen comisión superior a 1000.
 
-	SELECT nombre , SUM(sal_emp) AS Salario , SUM(comision_emp) AS Comision , SUM(sal_emp + comision_emp) AS SalarioFINAL FROM empleados
-	WHERE comision_emp >= 1000
-    GROUP BY nombre
-    ORDER BY nombre ASC;
+SELECT nombre , SUM(sal_emp) AS Salario , SUM(comision_emp) AS Comision , SUM(sal_emp + comision_emp) AS SalarioFINAL FROM empleados
+WHERE comision_emp >= 1000
+GROUP BY nombre
+ORDER BY nombre ASC;
 	
 -- 15. Obtener un listado similar al anterior, pero de aquellos empleados que NO tienen
 -- comisión.
 
-	SELECT nombre , SUM(sal_emp) AS Salario , SUM(comision_emp) AS Comision , SUM(sal_emp + comision_emp) AS SalarioFINAL FROM empleados
-	WHERE comision_emp = 0
-    GROUP BY nombre
-    ORDER BY nombre ASC;
+SELECT nombre , SUM(sal_emp) AS Salario , SUM(comision_emp) AS Comision , SUM(sal_emp + comision_emp) AS SalarioFINAL FROM empleados
+WHERE comision_emp = 0
+GROUP BY nombre
+ORDER BY nombre ASC;
     
 -- 16. Obtener la lista de los empleados que ganan una comisión superior a su sueldo.
 
-	SELECT nombre , SUM(sal_emp) AS Salario , SUM(comision_emp)  AS Comision FROM empleados
-	WHERE comision_emp > sal_emp
-    GROUP BY nombre 
-    ORDER BY nombre ASC;
+SELECT nombre , SUM(sal_emp) AS Salario , SUM(comision_emp)  AS Comision FROM empleados
+WHERE comision_emp > sal_emp
+GROUP BY nombre 
+ORDER BY nombre ASC;
     
 -- 17. Listar los empleados cuya comisión es menor o igual que el 30% de su sueldo.
 
-	SELECT nombre , SUM(sal_emp) AS Salario , SUM(comision_emp)  AS Comision , SUM(sal_emp * 0.3) AS Treinta_Salario FROM empleados
-    GROUP BY nombre
-    HAVING Comision <= Treinta_Salario
-    ORDER BY Comision ASC;
+SELECT nombre , SUM(sal_emp) AS Salario , SUM(comision_emp)  AS Comision , SUM(sal_emp * 0.3) AS Treinta_Salario FROM empleados
+GROUP BY nombre
+HAVING Comision <= Treinta_Salario
+ORDER BY Comision ASC;
 	
 -- 18. Hallar los empleados cuyo nombre NO contiene la cadena “MA”
 
-	SELECT nombre FROM empleados
-    WHERE NOT nombre LIKE "%MA%";
+SELECT nombre FROM empleados
+WHERE NOT nombre LIKE "%MA%";
     
 -- 19. Obtener los nombres de los departamentos que sean “Ventas”, “Investigación” o
 -- "Mantenimiento".
 
-	SELECT id_depto , nombre_depto FROM departamentos
-    WHERE nombre_depto = "ventas"
-		  OR nombre_depto = "investigacion"
-          OR nombre_depto = "mantenimiento"
-	ORDER BY id_depto ASC;
+SELECT id_depto , nombre_depto FROM departamentos
+WHERE nombre_depto = "ventas"
+OR nombre_depto = "investigacion"
+OR nombre_depto = "mantenimiento"
+ORDER BY id_depto ASC;
 	
 -- 20. Ahora obtener el contrario, los nombres de los departamentos que no sean “Ventas” ni
 -- “Investigación” ni ‘Mantenimiento.
 
-	SELECT nombre_depto , id_depto FROM departamentos
-	WHERE nombre_depto NOT IN ("Ventas", "Investigación" , "Mantenimiento")
-	ORDER BY id_depto ASC;
+SELECT nombre_depto , id_depto FROM departamentos
+WHERE nombre_depto NOT IN ("Ventas", "Investigación" , "Mantenimiento")
+ORDER BY id_depto ASC;
     
 -- 21. Mostrar el salario más alto de la empresa.
 
-	SELECT MAX(sal_emp) AS SALARIO_MAXIMO , nombre
-    FROM empleados
-    GROUP BY nombre
-    LIMIT 1;
+SELECT MAX(sal_emp) AS SALARIO_MAXIMO , nombre
+FROM empleados
+GROUP BY nombre
+LIMIT 1;
 
 -- 22. Mostrar el nombre del último empleado de la lista por orden alfabético.
 
-	SELECT nombre FROM empleados
-    ORDER BY nombre DESC
-    LIMIT 1;
+SELECT nombre FROM empleados
+ORDER BY nombre DESC
+LIMIT 1;
     
 -- 23. Hallar el salario más alto, el más bajo y la diferencia entre ellos.
 
-	SELECT MAX(sal_emp) AS SAL_MAXIMO , MIN(sal_emp) AS SAL_MINIMO , MAX(sal_emp) - MIN(sal_emp) AS DIFERENCIA
-    FROM empleados;
+SELECT MAX(sal_emp) AS SAL_MAXIMO , MIN(sal_emp) AS SAL_MINIMO , MAX(sal_emp) - MIN(sal_emp) AS DIFERENCIA
+FROM empleados;
     
 -- 24. Hallar el salario promedio por departamento.
 
-	SELECT ROUND(AVG(sal_emp)) AS SALARIO_PROMEDIO
-    FROM empleados;
+SELECT ROUND(AVG(sal_emp)) AS SALARIO_PROMEDIO
+FROM empleados;
 
 /* ------ CONSULTAS HAVING ---------- */
 
 -- 25. Hallar los departamentos que tienen más de tres empleados. Mostrar el número de
 -- empleados de esos departamentos.
 
-	SELECT id_depto AS DPTO , COUNT(id_emp) AS cant_EMP
-    FROM empleados
-    GROUP BY id_depto
-	HAVING cant_EMP > 3;
+SELECT id_depto AS DPTO , COUNT(id_emp) AS cant_EMP
+FROM empleados
+GROUP BY id_depto
+HAVING cant_EMP > 3;
 		
 -- 26. Hallar los departamentos que no tienen empleados
 
-	SELECT e.id_depto AS DPTO , COUNT(e.id_emp) AS cant_EMP
-    FROM empleados e JOIN departamentos d
-    ON e.id_depto = d.id_depto
-    GROUP BY e.id_depto
-    HAVING cant_EMP > 0;
-	-- Dejo la consulta de esta forma para evidenciar que NO existe departamento
+SELECT e.id_depto AS DPTO , COUNT(e.id_emp) AS cant_EMP
+FROM empleados e JOIN departamentos d
+ON e.id_depto = d.id_depto
+GROUP BY e.id_depto
+HAVING cant_EMP > 0;
+    -- Dejo la consulta de esta forma para evidenciar que NO existe departamento
     -- sin empleados.
 
 /* ------ CONSULTAS CON SUBCONSULTA ---------- */
@@ -243,7 +243,7 @@ INSERT INTO `empleados` VALUES (898,'Iván Duarte','M','1955-08-12','1998-05-16'
 -- 28. Mostrar la lista de los empleados cuyo salario es mayor o igual que el promedio de la
 -- empresa. Ordenarlo por departamento.
 
-	SELECT sal_emp AS SUELDO , nombre AS NOMBRE , id_depto AS DEPARTAMENTO
-    FROM empleados
-    WHERE sal_emp >= ( SELECT AVG(sal_emp) FROM empleados )
-    ORDER BY id_depto ASC;
+SELECT sal_emp AS SUELDO , nombre AS NOMBRE , id_depto AS DEPARTAMENTO
+FROM empleados
+WHERE sal_emp >= ( SELECT AVG(sal_emp) FROM empleados )
+ORDER BY id_depto ASC;

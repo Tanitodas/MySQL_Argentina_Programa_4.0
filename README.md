@@ -21,10 +21,10 @@ En este repositorio podemos encontrar una recopilacion de ejercicios propuestos 
 
 En este repositorio veremos almacenados los ejercicios propuestos por la institucion que impartio el curso, la cual es "EGG Cooperation", como mencionamos antes.
 
-*Mas especificamente, en este repositorio se almacena la teoria y los ejercicios corresponientes a **MySQL**, tanto su enunciado como la resolucion particular a la que llegue.*
+*Mas especificamente, en este repositorio se almacena la teoria y los ejercicios corresponientes a **MySQL y Conexion a Base de datos con JAVA (JDBC y JPA)**, tanto su enunciado como la resolucion particular a la que llegue.*
 
 <p align="center">
-  <img src="https://i.postimg.cc/BnnPs8j1/Argentina-Programa-4-0-Back-End2.png" />
+  <img src="https://i.postimg.cc/QxZjwnCm/Argentina-Programa-Logica-y-Algoritmos.png" />
 </p>
 
 ## Estructura de Carpetas 🗂 🗂

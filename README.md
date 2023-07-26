@@ -24,7 +24,7 @@ En este repositorio veremos almacenados los ejercicios propuestos por la institu
 *Mas especificamente, en este repositorio se almacena la teoria y los ejercicios corresponientes a **MySQL y Conexion a Base de datos con JAVA (JDBC y JPA)**, tanto su enunciado como la resolucion particular a la que llegue.*
 
 <p align="center">
-  <img src="https://i.postimg.cc/QxZjwnCm/Argentina-Programa-Logica-y-Algoritmos.png" />
+  <img src="https://i.postimg.cc/hGXFf9hh/ARGENTINA-PROGRAMA-4-0-My-SQL-y-Conexion-a-Base-de-Datos.png" />
 </p>
 
 ## Estructura de Carpetas 🗂 🗂

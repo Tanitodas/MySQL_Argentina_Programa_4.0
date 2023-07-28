@@ -35,15 +35,16 @@ El espacio de este repositorio esta organizado con la siguiente estructura de ca
     
     Esta carpeta contiene todos los **pdf's** de *'MySQL'* en los cual aprendemos, y ponemos en práctica los siguientes conceptos:
 
-    + Conocer el nuevo IDE (En este caso MySQL Workbench).
-    + Comprender qué es una base de datos y cómo se conforma.
-    + Poder crear, eliminar y modificar una base de datos.
-    + Comprender el concepto de filas y columnas en las bases de datos.
-    + Poder realizar consultas a la base de datos y extraer información específica.
-    + Entender las relaciones entre tablas y los elementos que involucran.
-    + Realizar consultas multitablas.
+    * Conocer el nuevo IDE (En este caso MySQL Workbench).
+    * Comprender qué es una base de datos y cómo se conforma.
+    * Poder crear, eliminar y modificar una base de datos.
+    * Comprender el concepto de filas y columnas en las bases de datos.
+    * Poder realizar consultas a la base de datos y extraer información específica.
+    * Entender las relaciones entre tablas y los elementos que involucran.
+    * Realizar consultas multitablas.
 
   MODIFICAR
+  
     Dentro de esta carpeta nos encontraremos con los siguientes archivos:
     
     En primer lugar, el pdf llamado *'01_Conceptos_de_Colecciones'* en el cual se encuentra una explicacion teorica de los conceptos antes          

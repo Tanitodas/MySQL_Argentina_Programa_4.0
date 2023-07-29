@@ -42,18 +42,18 @@ El espacio de este repositorio esta organizado con la siguiente estructura de ca
     * Poder realizar consultas a la base de datos y extraer información específica.
     * Entender las relaciones entre tablas y los elementos que involucran.
     * Realizar consultas multitablas.
-
-  MODIFICAR
   
     Dentro de esta carpeta nos encontraremos con los siguientes archivos:
     
-    En primer lugar, el pdf llamado *'01_Conceptos_de_Colecciones'* en el cual se encuentra una explicacion teorica de los conceptos antes          
-    mencionados.
-    
-    Luego nos encontramos con los pdf's *'02_Ejercicios_Extras_Colecciones'* y *'03_Ejercicios_Extras_Mentores'* que contienen ejercicios para    
-    aplicar los conceptos que aprendimos en el primer pdf.
+    En primer lugar, nos encontramos con las carpetas en donde alamcenamos la resolucion de los ejercicios propuestos por EGG. En total son 2       
+    carpetas,una destinada a solamente los ejercicios practicos en donde se expresan las soluciones particulares a las cual llege a partir de la    
+    consigna y la otra es algo similar a la carpeta dedicada a los ejercicios practicos, pero enves de ser ejercicios practicos son unos 
+    ejercicios extras que nos brindó el mismo EGG
+  
+    Luego nos encontramos con el pdf *'04_Guia_MySQL'* en donde nos brindan definiciones y conceptos basicos acerca de las Bases de Datos, que 
+    tipos existen, como manipularlas, a traves de que software hacerlo, etc.
 
-    Por ultimo encontramos tres carpetas que contienen los ejercicios teoricos, practicos y extras, correspondientemente, que se llaman       *'04_Ejercicios_Teoricos'* , *'05_Ejercicios_Practicos'* y *'06_Ejercicios_Extras'*.
+    Por ultimo nos encontramos con un archivo de texto en donde se encuentran expresados y explicados algunos comandos de SQL.
 
 + 📂 *`'02_Relaciones_entre_Clases'`*: 
 

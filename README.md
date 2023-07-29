@@ -43,7 +43,7 @@ El espacio de este repositorio esta organizado con la siguiente estructura de ca
     * Entender las relaciones entre tablas y los elementos que involucran.
     * Realizar consultas multitablas.
   
-    Dentro de esta carpeta nos encontraremos con los siguientes archivos:
+    Dentro de esta carpeta nos encontraremos asd con los siguientes archivos:
     
     En primer lugar, nos encontramos con las carpetas en donde alamcenamos la resolucion de los ejercicios propuestos por EGG. En total son 2       
     carpetas,una destinada a solamente los ejercicios practicos en donde se expresan las soluciones particulares a las cual llege a partir de la    

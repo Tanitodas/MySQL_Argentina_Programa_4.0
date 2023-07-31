@@ -55,7 +55,7 @@ El espacio de este repositorio esta organizado con la siguiente estructura de ca
 
     Por ultimo nos encontramos con un archivo de texto en donde se encuentran expresados y explicados algunos comandos de SQL.
 
-+ 📂 *`'02_Relaciones_entre_Clases'`*: 
++ 📂 *`'02_JDBC'`*: 
 
     Esta carpeta contiene todos los **pdf's** de *'Relaciones_entre_clases'* en los cual aprendemos, y ponemos en práctica los siguientes conceptos:
 

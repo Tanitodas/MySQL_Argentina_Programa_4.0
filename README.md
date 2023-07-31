@@ -57,13 +57,14 @@ El espacio de este repositorio esta organizado con la siguiente estructura de ca
 
 + 📂 *`'02_JDBC'`*: 
 
-    Esta carpeta contiene todos los **pdf's** de *'Relaciones_entre_clases'* en los cual aprendemos, y ponemos en práctica los siguientes conceptos:
+    Esta carpeta contiene todos los **pdf's** de *'JDBC'* en los cual aprendemos, y ponemos en práctica los siguientes conceptos:
 
-    + ¿Qué es una relacion?
-    + Como usar un objeto a traves de otro
-    + Las distintas relaciones que existen
-    + Cuando usar relaciones
-    + Como diagramar clases y realaciones
+    + ¿Que es como y se compone JDBC?
+    + ¿Como se conecta a la base de datos?
+    + ¿Que es un driver?
+    + Ejecutar querys desde Java
+    + Obtener datos de la base de datos
+    + Usar el patron de diseño *'DAO'*
 
     Dentro de esta carpeta nos encontraremos con los siguientes archivos:
     

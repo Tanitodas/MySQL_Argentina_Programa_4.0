@@ -86,7 +86,7 @@ El espacio de este repositorio esta organizado con la siguiente estructura de ca
     + ¿Que son las interfaces?
     + Cuando y como usar interfaces.
 
-    Dentro deasdasd esta carpeta nos encontraremos con los siguientes archivos:asdasd
+    Dentro de esta carpeta nos encontraremos con los siguientes archivos:
     
     En primer lugar, el pdf llamado *'04_Herencia'* en el cual se encuentra una explicacion teorica de los conceptos antes    
     mencionados.

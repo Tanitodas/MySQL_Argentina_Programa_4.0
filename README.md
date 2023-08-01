@@ -66,7 +66,7 @@ El espacio de este repositorio esta organizado con la siguiente estructura de ca
     + Obtener datos de la base de datos
     + Usar el patron de diseño *'DAO'*
 
-    Dentro de esta carpeta nos encontraremos con los siguientes archivos:
+    Dentro de esta carpeta nos encontraremosasdasd con los siguientes archivos:
     
     En primer lugar, el pdf llamado *'03_Guia_Relaciones_entre_Clases'* en el cual se encuentra una explicacion teorica de los conceptos antes       
     mencionados.

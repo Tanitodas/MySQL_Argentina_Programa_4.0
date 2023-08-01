@@ -78,7 +78,7 @@ El espacio de este repositorio esta organizado con la siguiente estructura de ca
 
     Esta carpeta contiene todos los **pdf's** de *'Herencia'* en los cual aprendemos, y ponemos en práctica los siguientes conceptos:
 
-    + ¿Que es la herencia?.asdassdasdasd
+    + ¿Que es la herencia?
     + Para que sirve.
     + Como heredar entre clases.
     + Clases Abstractas y Finales.

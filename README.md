@@ -24,45 +24,47 @@ En este repositorio veremos almacenados los ejercicios propuestos por la institu
 *Mas especificamente, en este repositorio se almacena la teoria y los ejercicios corresponientes a **MySQL y Conexion a Base de datos con JAVA (JDBC y JPA)**, tanto su enunciado como la resolucion particular a la que llegue.*
 
 <p align="center">
-  <img src="https://i.postimg.cc/hGXFf9hh/ARGENTINA-PROGRAMA-4-0-My-SQL-y-Conexion-a-Base-de-Datos.png" />
+  <img src="https://i.postimg.cc/hGXFf9hh/ARGENTINA-PROGRAMA-4-0-My-SQL-y-Conexion-a-Base-de-Datos.png" alt = "Recorrido Bootcamp" />
 </p>
 
 ## Estructura de Carpetas 🗂 🗂
 
 El espacio de este repositorio esta organizado con la siguiente estructura de carpetas:
 
-+ 📂 *`'01_Colecciones_en_Java'`*:
++ 📂 *`'01_MySQL'`*:
     
-    Esta carpeta contiene todos los **pdf's** de *'Colecciones'* en los cual aprendemos, y ponemos en práctica los siguientes conceptos:
+    Esta carpeta contiene todos los **pdf's** de *'MySQL'* en los cual aprendemos, y ponemos en práctica los siguientes conceptos:
 
-    + Concepto de colecciones en java
-    + Crear y Usar:
-      - Listas
-      - Conjuntos
-      - Mapas
-    + Entender cuando utilizar cada una de las distintas colecciones
-    + Modificar y Recorrer colecciones
-    + Agregar,Buscar y Eliminar elementos en las colecciones
-
+    * Conocer el nuevo IDE (En este caso MySQL Workbench).
+    * Comprender qué es una base de datos y cómo se conforma.
+    * Poder crear, eliminar y modificar una base de datos.
+    * Comprender el concepto de filas y columnas en las bases de datos.
+    * Poder realizar consultas a la base de datos y extraer información específica.
+    * Entender las relaciones entre tablas y los elementos que involucran.
+    * Realizar consultas multitablas.
+  
     Dentro de esta carpeta nos encontraremos con los siguientes archivos:
     
-    En primer lugar, el pdf llamado *'01_Conceptos_de_Colecciones'* en el cual se encuentra una explicacion teorica de los conceptos antes          
-    mencionados.
-    
-    Luego nos encontramos con los pdf's *'02_Ejercicios_Extras_Colecciones'* y *'03_Ejercicios_Extras_Mentores'* que contienen ejercicios para    
-    aplicar los conceptos que aprendimos en el primer pdf.
+    En primer lugar, nos encontramos con las carpetas en donde alamcenamos la resolucion de los ejercicios propuestos por EGG. En total son 2       
+    carpetas,una destinada a solamente los ejercicios practicos en donde se expresan las soluciones particulares a las cual llege a partir de la    
+    consigna y la otra es algo similar a la carpeta dedicada a los ejercicios practicos, pero enves de ser ejercicios practicos son unos 
+    ejercicios extras que nos brindó el mismo EGG
+  
+    Luego nos encontramos con el pdf *'04_Guia_MySQL'* en donde nos brindan definiciones y conceptos basicos acerca de las Bases de Datos, que 
+    tipos existen, como manipularlas, a traves de que software hacerlo, etc.
 
-    Por ultimo encontramos tres carpetas que contienen los ejercicios teoricos, practicos y extras, correspondientemente, que se llaman       *'04_Ejercicios_Teoricos'* , *'05_Ejercicios_Practicos'* y *'06_Ejercicios_Extras'*.
+    Por ultimo nos encontramos con un archivo de texto en donde se encuentran expresados y explicados algunos comandos de SQL.
 
-+ 📂 *`'02_Relaciones_entre_Clases'`*: 
++ 📂 *`'02_JDBC'`*: 
 
-    Esta carpeta contiene todos los **pdf's** de *'Relaciones_entre_clases'* en los cual aprendemos, y ponemos en práctica los siguientes conceptos:
+    Esta carpeta contiene todos los **pdf's** de *'JDBC'* en los cual aprendemos, y ponemos en práctica los siguientes conceptos:
 
-    + ¿Qué es una relacion?
-    + Como usar un objeto a traves de otro
-    + Las distintas relaciones que existen
-    + Cuando usar relaciones
-    + Como diagramar clases y realaciones
+    + ¿Que es como y se compone JDBC?
+    + ¿Como se conecta a la base de datos?
+    + ¿Que es un driver?
+    + Ejecutar querys desde Java
+    + Obtener datos de la base de datos
+    + Usar el patron de diseño *'DAO'*
 
     Dentro de esta carpeta nos encontraremos con los siguientes archivos:
     
@@ -76,7 +78,7 @@ El espacio de este repositorio esta organizado con la siguiente estructura de ca
 
     Esta carpeta contiene todos los **pdf's** de *'Herencia'* en los cual aprendemos, y ponemos en práctica los siguientes conceptos:
 
-    + ¿Que es la herencia?.
+    + ¿Que es la herencia?
     + Para que sirve.
     + Como heredar entre clases.
     + Clases Abstractas y Finales.

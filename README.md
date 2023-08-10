@@ -67,12 +67,14 @@ El espacio de este repositorio esta organizado con la siguiente estructura de ca
     + Usar el patron de diseño *'DAO'*
 
     Dentro de esta carpeta nos encontraremos con los siguientes archivos:
-    
-    En primer lugar, el pdf llamado *'03_Guia_Relaciones_entre_Clases'* en el cual se encuentra una explicacion teorica de los conceptos antes       
-    mencionados.
 
-    Luego nos encontramos dos carpetas que contienen los ejercicios practicos y ejercicios extras, correspondientemente, que se llaman 
-    *'01_Ejercicios_Practicos'* y *'02_Ejercicios_Extras'*.
+    En primer lugar, nos encontramos con las carpetas en donde alamcenamos la resolucion de los ejercicios propuestos por EGG. En total son 2      
+    carpetas,una destinada a solamente los ejercicios practicos en donde se expresan las soluciones particulares a las cual llege a partir de la   
+    consigna y la otra es algo similar a la carpeta dedicada a los ejercicios practicos, pero enves de ser ejercicios practicos son unos 
+    ejercicios extras que nos brindó el mismo EGG. Las carpetas se llaman respectivamente *'01_Ejercicios_Practicos'* y *'02_Ejercicios_Extras'*.
+
+    Luego nos encontramos con el pdf *'03_Guia_JDBC'* en donde nos brindan definiciones y conceptos basicos acerca de la API JDBC y como    
+    implementar la misma en una aplicacion de Java.
 
 + 📂 *`'03_Herencia'`*: 
 

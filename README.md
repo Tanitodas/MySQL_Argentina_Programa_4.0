@@ -73,8 +73,7 @@ El espacio de este repositorio esta organizado con la siguiente estructura de ca
     consigna y la otra es algo similar a la carpeta dedicada a los ejercicios practicos, pero enves de ser ejercicios practicos son unos 
     ejercicios extras que nos brindó el mismo EGG. Las carpetas se llaman respectivamente *'01_Ejercicios_Practicos'* y *'02_Ejercicios_Extras'*.
 
-    Luego nos encontramos con el pdf *'03_Guia_JDBC'* en donde nos brindan definiciones y conceptos basicos acerca de la API JDBC y como    
-    implementar la misma en una aplicacion de Java.
+    Luego nos encontramos con el pdf *'03_Guia_JDBC'* en donde nos brindan definiciones y conceptos basicos acerca de la API JDBC y como                implementar la misma en una aplicacion de Java.
 
 + 📂 *`'03_Herencia'`*: 
 

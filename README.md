@@ -79,13 +79,13 @@ El espacio de este repositorio esta organizado con la siguiente estructura de ca
 
     Esta carpeta contiene todos los **pdf's** de *'JPA'* en los cual aprendemos, y ponemos en práctica los siguientes conceptos:
 
-    + ¿Que es JPA? y como funciona
-    + Para que sirve.
-    + Como heredar entre clases.
-    + Clases Abstractas y Finales.
-    + Métodos Abstractos y Finales.
-    + ¿Que son las interfaces?
-    + Cuando y como usar interfaces.
+    + ¿Que es JPA? y como funciona.
+    + Mapear entidades y atributos.
+    + Mapear relaciones entre clases.
+    + Persisti,buscar,modificar y eliminar (CRUD) entidades de la base de datos.
+    + Crear consultas a la base de datos desde Java.
+ 
+  seguir modificando
 
     Dentro de esta carpeta nos encontraremos con los siguientes archivos:
     

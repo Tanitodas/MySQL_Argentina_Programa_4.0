@@ -75,11 +75,11 @@ El espacio de este repositorio esta organizado con la siguiente estructura de ca
 
     Luego nos encontramos con el pdf *'03_Guia_JDBC'* en donde nos brindan definiciones y conceptos basicos acerca de la API JDBC y como                implementar la misma en una aplicacion de Java.
 
-+ 📂 *`'03_Herencia'`*: 
++ 📂 *`'03_JPA'`*: 
 
-    Esta carpeta contiene todos los **pdf's** de *'Herencia'* en los cual aprendemos, y ponemos en práctica los siguientes conceptos:
+    Esta carpeta contiene todos los **pdf's** de *'JPA'* en los cual aprendemos, y ponemos en práctica los siguientes conceptos:
 
-    + ¿Que es la herencia?
+    + ¿Que es JPA? y como funciona
     + Para que sirve.
     + Como heredar entre clases.
     + Clases Abstractas y Finales.

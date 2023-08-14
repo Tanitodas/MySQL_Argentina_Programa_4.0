@@ -17,7 +17,7 @@ En este repositorio podemos encontrar una recopilacion de ejercicios propuestos 
       
 3. **Bases de datos:**
     + 3.1. MySQL
-    + 3.2. Conexion Java a Base de datos : JDBC y JPA
+    + 3.2. Conexion Java a Base de datos : JDBC y JPA asd asd
 
 En este repositorio veremos almacenados los ejercicios propuestos por la institucion que impartio el curso, la cual es "EGG Cooperation", como mencionamos antes.
 

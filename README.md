@@ -51,7 +51,7 @@ El espacio de este repositorio esta organizado con la siguiente estructura de ca
     ejercicios extras que nos brindó el mismo EGG
   
     Luego nos encontramos con el pdf *'04_Guia_MySQL'* en donde nos brindan definiciones y conceptos basicos acerca de las Bases de Datos, que 
-    tipos existen, como manipularlas, a traves de que software hacerlo, etc. asd asd asd
+    tipos existen, como manipularlas, a traves de que software hacerlo, etc.
 
     Por ultimo nos encontramos con un archivo de texto en donde se encuentran expresados y explicados algunos comandos de SQL.
 
